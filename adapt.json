@@ -22,6 +22,10 @@
         "adapt-contrib-slider": "*",
         "adapt-contrib-spoor": "*",
         "adapt-contrib-bookmarking": "*",
-        "adapt-contrib-languagePicker": "*"
+        "adapt-contrib-languagePicker": "*",
+        "adapt-chat": "*",
+        "adapt-flipper": "*",
+        "adapt-keepScrollPosition": "*",
+        "adapt-menu-background": "*"
     }
 }

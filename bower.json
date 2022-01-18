@@ -1,0 +1,6 @@
+{
+    "name": "manifest",
+    "dependencies": {
+        "adapt-contrib-vanilla": "6.0.0"
+    }
+}

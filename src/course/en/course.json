@@ -1,13 +1,11 @@
 {
   "_id": "course",
   "_type": "course",
-  "_classes": "",
-  "_htmlClasses": "",
+  "_htmlClassName": "",
   "title": "Adapt v5",
   "displayTitle": "Adapt Version 5",
   "description": "A sample course demonstrating the capabilities of the Adapt Framework",
-  "body": "Welcome to the demonstration build for version 5 of the Adapt framework.",
-  "instruction": "",
+  "body": "Welcome to the demonstration build for version 5 of the Adapt framework.<br><br>The focus of this release has been on accessibility, which has been updated to provide a greatly improved experience for users of assistive technology - most noticeably by removing the need to have an 'accessibility mode'.<br>For a complete list of changes, see <a href='https://github.com/adaptlearning/adapt_framework/milestone/17?closed=1' target='_blank'>the Accessibility v4 milestone</a>.",
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",
@@ -18,12 +16,12 @@
       "ariaLabel": "Reset"
     },
     "_showCorrectAnswer": {
-      "buttonText": "Show correct answer",
+      "buttonText": "Correct answer",
       "ariaLabel": "Show correct answer"
     },
     "_hideCorrectAnswer": {
-      "buttonText": "Show your answer",
-      "ariaLabel": "Show your answer"
+      "buttonText": "My answer",
+      "ariaLabel": "Show my answer"
     },
     "_showFeedback": {
       "buttonText": "Show feedback",
@@ -64,14 +62,17 @@
         "locked": "Locked",
         "visited": "Visited"
       }
+    },
+    "_hotgrid": {
+      "ariaRegion": "Selectable image component. Select each item to show more information.",
+      "popupPagination": "{{itemNumber}} / {{totalItems}}"
     }
   },
-  "_latestTrackingId": 19,
+  "_latestTrackingId": 47,
   "_pageLevelProgress": {
     "_isEnabled": true,
     "_showPageCompletion": false,
-    "_isCompletionIndicatorEnabled": false,
-    "_isShownInNavigationBar": true
+    "_altText": "of components completed on this page."
   },
   "_resources": {
     "_isEnabled": true,
@@ -116,22 +117,14 @@
       }
     ]
   },
-  "_start": {
-    "_isEnabled": false,
-    "_startIds": [
-      {
-        "_id": "co-05",
-        "_skipIfComplete": true,
-        "_className": ""
-      }
-    ],
-    "_force": false,
-    "_isMenuDisabled": false
+  "_notes": {
+    "_isEnabled": true,
+    "title": "Notes",
+    "description": "Click here to edit notes"
   },
   "_assessment": {
     "_isPercentageBased": true,
-    "_scoreToPass": 75,
-    "_correctToPass": 75
+    "_scoreToPass": 75
   },
   "_bookmarking": {
     "_isEnabled": true,
@@ -142,5 +135,41 @@
       "yes": "Yes",
       "no": "No"
     }
+  },
+  "_contents": {
+    "_isEnabled": false,
+    "_startOpen": true,
+    "_showArticleTitles": false,
+    "_showPagePosition": true,
+    "_courseNavigation": {
+      "_isEnabled": true,
+      "_landingPage": false,
+      "_allAccordions": false,
+      "_circleProgress": {
+        "_isEnabled": true,
+        "_color": "#FFF"
+      },
+      "_scrollContentsHeight": {
+        "_isEnabled": true,
+        "_offset": 0
+      }
+    },
+    "_progressBar": {
+      "_isEnabled": true,
+      "_showPercentage": true
+    },
+    "_menuNavigationView": {
+      "_isEnabled": true
+    },
+    "_altText": "of components completed on this page."
+  },
+  "_certificate": {
+    "_certificateWidth": 595,
+    "_certificateHeight": 842,
+    "_coursePositionHeight": 430,
+    "_namePositionHeight": 505,
+    "_datePositionHeight": 575,
+    "_xPosition": 297,
+    "_certificateFilePath": "assets/certificate.png"
   }
 }
