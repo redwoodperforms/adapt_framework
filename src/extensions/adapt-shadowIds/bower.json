@@ -1,0 +1,14 @@
+{
+  "name": "adapt-shadowIds",
+  "homepage": "https://github.com/darylhedley/adapt-shadowIds",
+  "authors": [
+    "Daryl Hedley <darylhedley@hotmail.com>"
+  ],
+  "description": "An extension to allow testers to see screen ids on elements",
+  "main": "/js/adapt-shadowIds.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}

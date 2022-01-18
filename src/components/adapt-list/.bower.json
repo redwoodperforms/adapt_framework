@@ -1,0 +1,29 @@
+{
+  "name": "adapt-list",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgkineo/adapt-list.git"
+  },
+  "framework": ">=5.14",
+  "version": "5.0.0",
+  "homepage": "https://github.com/cgkineo/adapt-list",
+  "issues": "https://github.com/cgkineo/adapt-list/issues",
+  "component": "list",
+  "displayName": "List",
+  "description": "A text component in which you can add list items.",
+  "main": "/js/adapt-list.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0",
+  "_release": "5.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.0",
+    "commit": "0e469ca112ae1d3b63dc8809cc7fca9670b54e12"
+  },
+  "_source": "git://github.com/cgkineo/adapt-list.git",
+  "_target": "5.0.0",
+  "_originalSource": "adapt-list"
+}

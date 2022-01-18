@@ -1,0 +1,33 @@
+.opentextinput {
+  &__count-characters {
+    background: @item-color;
+    color: @item-color-inverted;
+    position: relative;
+
+    .opentextinput__count-amount {
+      font-weight: bold;
+    }
+
+    .opentextinput__autosave {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  &__item-textbox {
+    display: block;
+    resize: none;
+    min-height: 8.75rem;
+    width: 100%;
+  }
+
+  &__hide-modelanswer {
+    display: none;
+    position: absolute;
+  }
+
+  &__show-modelanswer {
+    display: block;
+    position: relative;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "adapt-keepScrollPosition",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgkineo/adapt-keepScrollPosition"
+  },
+  "framework": ">=2",
+  "homepage": "https://github.com/cgkineo/adapt-keepScrollPosition",
+  "issues": "https://github.com/cgkineo/adapt-keepScrollPosition/issues/",
+  "displayName": "Keep Scroll Position",
+  "extension": "keepScrollPosition",
+  "description": "An extension that will remember and restore the learner's scroll position within a menu or page",
+  "main": "/js/adapt-keepScrollPosition.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "targetAttribute": "_keepScrollPosition",
+  "license": "GPL-3.0",
+  "_release": "adb9e28884",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "adb9e28884a007fe264429a17fc5fbed0df4e4c1"
+  },
+  "_source": "git://github.com/cgkineo/adapt-keepScrollPosition.git",
+  "_target": "*",
+  "_originalSource": "adapt-keepScrollPosition",
+  "_direct": true
+}
