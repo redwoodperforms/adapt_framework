@@ -1,9 +1,15 @@
 // Colour definitions
 // --------------------------------------------------
-@blue: #36CDE8;
-@blueDark: #263944;
+@blue: #00746C;
+@blueDark: #B2D235;
 @grey: #9096A0;
+@mid-grey: #9096A0;
 @greyDark: #4D4D4D;
+
+@primary-color: @blue;
+@secondary-color:@blueDark;
+
+@primary-color-inverted:@white;
 
 // These variables are used to change the colour of text
 // Primary use is for altering the text colour over a background image
@@ -11,7 +17,10 @@
 // --------------------------------------------------
 @transparent-light: transparent;
 @transparent-dark: transparent;
-
+@foreground-color: @black;
+@background-color: @white;
+@foreground-color-inverted: @white;
+@background-color-inverted: @grey;
 // Note: If customising a theme for the Authoring Tool please update the
 // corresponding default value for that variable in the properties.schema file.
 // This is to stop any amended variables below being overwritten by
@@ -21,6 +30,7 @@
 // --------------------------------------------------
 @font-color: @greyDark;
 @font-color-inverted: @white;
+
 
 @link: @font-color;
 @link-inverted: @font-color-inverted;
@@ -34,6 +44,7 @@
 // Items - components
 // --------------------------------------------------
 @item-color: @blue;
+@item-text-color: @black;
 @item-color-inverted: @white;
 
 @item-color-hover: darken(@item-color, 10%);
