@@ -8,24 +8,24 @@
   "body": "Welcome to the demonstration build for version 5 of the Adapt framework.<br><br>The focus of this release has been on accessibility, which has been updated to provide a greatly improved experience for users of assistive technology - most noticeably by removing the need to have an 'accessibility mode'.<br>For a complete list of changes, see <a href='https://github.com/adaptlearning/adapt_framework/milestone/17?closed=1' target='_blank'>the Accessibility v4 milestone</a>.",
   "_buttons": {
     "_submit": {
-      "buttonText": "Submit",
-      "ariaLabel": "Submit"
+      "buttonText": "SUBMIT",
+      "ariaLabel": "SUBMIT"
     },
     "_reset": {
-      "buttonText": "Reset",
-      "ariaLabel": "Reset"
+      "buttonText": "RESET",
+      "ariaLabel": "RESET"
     },
     "_showCorrectAnswer": {
-      "buttonText": "Correct answer",
-      "ariaLabel": "Show correct answer"
+      "buttonText": "SHOW CORRECT ANSWER",
+      "ariaLabel": "SHOW CORRECT ANSWER"
     },
     "_hideCorrectAnswer": {
-      "buttonText": "My answer",
-      "ariaLabel": "Show my answer"
+      "buttonText": "SHOW MY ANSWER",
+      "ariaLabel": "SHOW MY ANSWER"
     },
     "_showFeedback": {
-      "buttonText": "Show feedback",
-      "ariaLabel": "Show feedback"
+      "buttonText": "SHOW FEEDBACK",
+      "ariaLabel": "SHOW FEEDBACK"
     },
     "remainingAttemptsText": "attempts remaining",
     "remainingAttemptText": "final attempt",
@@ -63,9 +63,170 @@
         "visited": "Visited"
       }
     },
-    "_hotgrid": {
-      "ariaRegion": "Selectable image component. Select each item to show more information.",
-      "popupPagination": "{{itemNumber}} / {{totalItems}}"
+    "_components": {
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results."
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}"
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if title}}Back to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_tidbits": {
+        "ariaRegion": "This component displays text with links. Use the links to access more information."
+      },
+      "_flipcard": {
+        "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
+      },
+      "_expose": {
+        "ariaRegion": ""
+      },
+      "_hotgrid": {
+        "ariaRegion": "Selectable image component. Select each item to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_imagegrid": {
+        "ariaRegion": "This component contains images laid out in a flexible grid."
+      },
+      "_list": {
+        "ariaRegion": ""
+      },
+      "_sentenceOrdering": {
+        "ariaRegion": "This is a sentence ordering question component."
+      },
+      "_stacklist": {
+        "ariaRegion": "This stacklist component presents a list of items. Select the button to access each item in turn.",
+        "ariaButtonLabel": "Select this button to access the next item in the stacklist."
+      },
+      "_tabs": {
+        "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+      },
+      "_youtube": {
+        "ariaRegion": "Media component which displays a YouTube video. Select the play / pause button to watch it.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_expose-with-image": {
+        "ariaRegion": ""
+      },
+      "_chat": {
+        "ariaRegion": ""
+      },
+      "_flipper": {
+        "ariaRegion": ""
+      },
+      "_clickAndLearn": {
+        "ariaRegion": "This component is a click and learn type of component where we have few clickable cards, after clicking on one of those card they reveal text associated with them."
+      },
+      "_peelbackhotspot": {
+        "ariaRegion": ""
+      }
+    },
+    "_extensions": {
+      "_languagePicker": {
+        "navigationBarLabel": "Select course language",
+        "languageSelector": "Language selector"
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content"
+      },
+      "_resources": {
+        "resources": "Additional resources."
+      },
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_close": {
+        "closeButton": "Select here to close the window."
+      },
+      "_favicons": {},
+      "_hint": {
+        "openButtonText": "open hint",
+        "closeButtonText": "close hint",
+        "ariaLabelNotify": "Hint"
+      },
+      "_glossary": {
+        "glossary": "Glossary",
+        "labelLink": "Terms beginning with",
+        "labelNavigation": "Glossary navigation"
+      },
+      "_nudge": {
+        "scroll": "Scroll down when ready",
+        "plp": "Click here to view your progress",
+        "trickle": "Did you notice?",
+        "complete": "Click here to return to the menu"
+      },
+      "_search": {},
+      "_audio": {
+        "navigationAriaLabel": "Open course audio.",
+        "playAriaLabel": "Play audio.",
+        "pauseAriaLabel": "Pause audio.",
+        "stopAriaLabel": "Stop audio."
+      }
+    },
+    "_menu": {
+      "_sidemenu": {
+        "durationLabel": "Duration:",
+        "ariaRegion": "Menu",
+        "menuItem": "Menu item.",
+        "menuEnd": "You have reached the end of the menu."
+      },
+      "_boxMenu": {
+        "ariaRegion": "Menu",
+        "durationLabel": "Duration:",
+        "menuItem": "Menu item.",
+        "menuEnd": "You have reached the end of the menu."
+      }
     }
   },
   "_latestTrackingId": 47,
@@ -73,6 +234,14 @@
     "_isEnabled": true,
     "_showPageCompletion": false,
     "_altText": "of components completed on this page."
+  },
+  "_lockType": "none",
+  "_latestTrackingId": 500,
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": false,
+    "_isCompletionIndicatorEnabled": false,
+    "_isShownInNavigationBar": true
   },
   "_resources": {
     "_isEnabled": true,
@@ -122,6 +291,18 @@
     "title": "Notes",
     "description": "Click here to edit notes"
   },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
   "_assessment": {
     "_isPercentageBased": true,
     "_scoreToPass": 75
@@ -162,6 +343,38 @@
       "_isEnabled": true
     },
     "_altText": "of components completed on this page."
+  },
+  "_search": {
+    "_isEnabled": true,
+    "_drawerOrder": 0,
+    "title": "",
+    "description": "Type in search words and enter",
+    "noResultsMessage": "Sorry, no results were found",
+    "awaitingResultsMessage": "Formulating results...",
+    "_showHighlights": true,
+    "_showFoundWords": true,
+    "_previewWords": 15,
+    "_previewCharacters": 30
+  },
+  "_favicons": [
+    {
+      "_src": "assets/favicon.ico",
+      "_type": "",
+      "_rel": "shortcut icon",
+      "_sizes": ""
+    },
+    {
+      "_src": "assets/favicon.png",
+      "_type": "image/png",
+      "_rel": "apple-touch-icon",
+      "_sizes": "144x144"
+    }
+  ],
+  "_homeButton": {
+    "_isEnabled": true,
+    "_hideHomeButton": false,
+    "_redirectToId": "course",
+    "alt": "Home"
   },
   "_certificate": {
     "_certificateWidth": 595,
