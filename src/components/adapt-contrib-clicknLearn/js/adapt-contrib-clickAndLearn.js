@@ -37,7 +37,7 @@ define([
                 this.model.set('_isDesktop', true);
             } else {
                 this.$el.addClass('mobile').removeClass('desktop');
-                this.model.set('_isDesktop', false);
+                this.model.set('_isDesktop', true);
             }
         },
 
