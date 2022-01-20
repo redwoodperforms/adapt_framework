@@ -1,10 +1,13 @@
 // Colour definitions
 // --------------------------------------------------
-@blue: #00746C;
-@blueDark: #B2D235;
+@blue:#00b1b0;
+@blueDark: #00746C;
 @grey: #9096A0;
 @mid-grey: #9096A0;
+@mediumGrey: #9096A0;
+@light-grey: #f5f5f5;
 @greyDark: #4D4D4D;
+@orange: #E97926;
 
 @primary-color: @blue;
 @secondary-color:@blueDark;
@@ -28,7 +31,7 @@
 
 // Body, link, and heading colour
 // --------------------------------------------------
-@font-color: @greyDark;
+@font-color: @black;
 @font-color-inverted: @white;
 
 
@@ -38,33 +41,36 @@
 @link-hover: @link;
 @link-inverted-hover: @link-inverted;
 
-@heading-color: @blue;
+@heading-color: @black;
 @heading-color-inverted: @white;
 
 // Items - components
 // --------------------------------------------------
-@item-color: @blue;
+@item-color: @blueDark;
 @item-text-color: @black;
 @item-color-inverted: @white;
+@item-color-visited: @mediumGrey; //darken(@item-color, 10%)
 
-@item-color-hover: darken(@item-color, 10%);
-@item-color-inverted-hover: @item-color-inverted;
+@item-color-hover: @primary-color;
+@item-color-inverted-hover: @black;
 
 @item-color-selected: darken(@item-color, 20%);
+@item-text-color-selected:#fff;
 @item-color-inverted-selected: @item-color-inverted;
 
 // Visited - presentation components
 // --------------------------------------------------
-@visited: #727272;
+@visited: @orange;
 @visited-inverted: @white;
 
 // Buttons
 // --------------------------------------------------
-@btn-color: @greyDark;
+@btn-color: @secondary-color;
 @btn-color-inverted: @white;
 
-@btn-color-hover: darken(@btn-color, 10%);
-@btn-color-inverted-hover: @btn-color-inverted;
+@btn-color-hover: @primary-color;
+@btn-border-hover-color: @primary-color;
+@btn-color-inverted-hover: @black;
 
 // Button icon
 // --------------------------------------------------
@@ -151,7 +157,7 @@
 
 // Drawer
 // --------------------------------------------------
-@drawer: @blueDark;
+@drawer: @blue;
 @drawer-inverted: @white;
 
 @drawer-link: @drawer-inverted;
