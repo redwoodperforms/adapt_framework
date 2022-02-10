@@ -229,13 +229,6 @@
       }
     }
   },
-  "_latestTrackingId": 47,
-  "_pageLevelProgress": {
-    "_isEnabled": true,
-    "_showPageCompletion": false,
-    "_altText": "of components completed on this page."
-  },
-  "_lockType": "none",
   "_latestTrackingId": 500,
   "_pageLevelProgress": {
     "_isEnabled": true,
@@ -243,6 +236,7 @@
     "_isCompletionIndicatorEnabled": false,
     "_isShownInNavigationBar": true
   },
+  "_lockType": "none",
   "_resources": {
     "_isEnabled": true,
     "title": "Resources",
