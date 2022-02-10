@@ -23,10 +23,10 @@
 
         {{#each _items}}
         <div id="{{../_id}}-{{@index}}-tabpanel" role="tabpanel" aria-labelledby="{{../_id}}-{{@index}}-tabtitle"
-          data-index="{{_index}}" class="tabs__content-item item-{{@index}} {{#if _classes}} {{_classes}}{{/if}}"
+          data-index="{{_index}}" class="tabs__content-item item-{{@index}} item-{{@index}}-audio {{#if _classes}} {{_classes}}{{/if}}"
           id="{{../_id}}-{{@index}}-tabpanel" tabindex="0">
           <div class="tabs__content-item-inner">
-
+            <div class="item-audio-container"></div>
             {{#if title}}
             <div class="tabs__content-item-title">
               <div class="tabs__content-item-title-inner" {{a11y_attrs_heading 'componentItem'}}>

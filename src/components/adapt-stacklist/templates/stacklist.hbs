@@ -5,7 +5,8 @@
         <div class="stacklist__items">
             <div class="stacklist__items-inner">
                 {{#each _items}}
-                    <div class="stacklist__item {{_class}}">
+                    <div class="stacklist__item item-{{@index}}-audio {{_class}}">
+                        <div class="item-audio-container"></div>
                         {{#if this.length}}
                             {{{a11y_text this}}}
                         {{else}}

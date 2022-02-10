@@ -1,11 +1,11 @@
 <div class="hotgraphic-popup__inner">
 
   {{#each _items}}
-  <div class="hotgraphic-popup__item{{#if _classes}} {{_classes}}{{/if}}{{#if _isVisited}} is-visited{{/if}}{{#if _isActive}} is-active{{/if}}{{#if ../_isRound}} is-round{{/if}}" data-index={{@index}}{{#unless _isActive}} aria-hidden="true"{{/unless}}>
+  <div class="hotgraphic-popup__item item-{{@index}}-audio {{#if _classes}} {{_classes}}{{/if}}{{#if _isVisited}} is-visited{{/if}}{{#if _isActive}} is-active{{/if}}{{#if ../_isRound}} is-round{{/if}}" data-index={{@index}}{{#unless _isActive}} aria-hidden="true"{{/unless}}>
 
     <div class="hotgraphic-popup__item-content">
       <div class="hotgraphic-popup__item-content-inner">
-
+        <div class="item-audio-container"></div>
         {{#if title}}
         <div{{#if _isActive}} id="notify-heading"{{/if}} class="hotgraphic-popup__item-title" {{a11y_attrs_heading 'notify'}}>
           <div class="hotgraphic-popup__item-title-inner">

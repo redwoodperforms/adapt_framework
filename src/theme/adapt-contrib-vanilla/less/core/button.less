@@ -22,10 +22,13 @@
     background-color: @btn-color;
     color: @btn-color-inverted;
     border-radius: @btn-border-radius;
+    border:2px solid;
+    border-color:@btn-border-color;
 
     .no-touch &:not(.is-disabled):not(.is-locked):hover {
       background-color: @btn-color-hover;
       color: @btn-color-inverted-hover;
+      border-color:@btn-border-hover-color;
       .transition(background-color @duration ease-in, color @duration ease-in;);
     }
   }
@@ -34,12 +37,15 @@
   &-text.is-disabled {
     background-color: @disabled;
     color: @disabled-inverted;
+    border-color:@disabled;
+
   }
 
   &-icon.is-locked,
   &-text.is-locked {
     background-color: @disabled;
     color: @disabled-inverted;
+    border-color:@disabled;
     cursor: not-allowed;
   }
 

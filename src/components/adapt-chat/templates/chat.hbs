@@ -4,12 +4,13 @@
   <div class="stacklist-widget component-widget">
     <div class="chat-lines" role="list">
       {{#each _items}}
-        <div class="chat-line {{#if ../_singleParticipant}}sole-participant{{else}}participant-{{_participant}}{{/if}}" role="listitem">
+        <div class="chat-line item-{{@index}}-audio  {{#if ../_singleParticipant}}sole-participant{{else}}participant-{{_participant}}{{/if}}" role="listitem">
           <div class="chat-icon">
             <img class="chat-icon-inner" src="" />
             <div class="chat-icon-name"> </div>
           </div>
           <div class="chat-text">
+            <div class="item-audio-container"></div>
                 {{#if this.length}}
                     {{{a11y_text this}}}
                 {{else}}

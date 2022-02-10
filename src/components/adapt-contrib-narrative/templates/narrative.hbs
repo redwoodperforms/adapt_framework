@@ -8,8 +8,8 @@
       <div class="narrative__content-inner">
 
         {{#each _items}}
-        <div class="narrative__content-item{{#if _isVisited}} is-visited{{/if}}" data-index="{{@index}}">
-
+        <div class="narrative__content-item item-{{@index}}-audio {{#if _isVisited}} is-visited{{/if}}" data-index="{{@index}}">
+          <div class="item-audio-container"></div>
           {{#if title}}
           <div class="narrative__content-title">
             <div class="narrative__content-title-inner" {{a11y_attrs_heading 'componentItem'}}>

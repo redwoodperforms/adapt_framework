@@ -49,7 +49,7 @@ export default function Gmcq(props) {
 
           <div
             className={classes([
-              `gmcq-item item-${index}`,
+              `gmcq-item item-${index} item-${index}-audio`,
               (shouldShowMarking && _shouldBeSelected) ? 'is-correct' : null,
               (shouldShowMarking && !_shouldBeSelected) ? 'is-incorrect' : null
             ])}
@@ -74,7 +74,7 @@ export default function Gmcq(props) {
               onFocus={onItemFocus}
               onBlur={onItemBlur}
             />
-
+            <div class="item-audio-container"></div>
             <label
               className={classes([
                 'gmcq-item__label',

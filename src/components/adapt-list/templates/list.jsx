@@ -29,7 +29,7 @@ export default function List({ _columns, _orderedList, _items, ...props }) {
             >
               <div className="list-item__inner">
                 {!_imageSrc ?
-                  <div className="list-item__bullet"></div> :
+                  <div className="list-item__bullet icon"></div> :
                   <templates.image
                     _src={_imageSrc}
                     alt={alt}

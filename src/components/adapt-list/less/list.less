@@ -100,7 +100,7 @@
     margin-bottom: @item-margin * 2;
   }
 
-  &__title {
+ &__title {
     .item-title;
   }
 
@@ -127,14 +127,6 @@
   // Ordered / unordered list bullet
   // --------------------------------------------------
   &__bullet:before {
-    content: "";
-    height: @icon-size * 2;
-    width: @icon-size * 2;
-    padding: @icon-size / 2;
-    .item-title;
-    text-align: center;
-    background-color: @item-color;
-    color: @item-color-inverted;
-    border-radius: 50%;
+  content: "\e944";
   }
 }

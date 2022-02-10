@@ -202,14 +202,14 @@
 
 
 .nav{
-  background-color: @mediumGrey;
+  //background-color: @mediumGrey;
   position:sticky;
     position: -webkit-sticky;
   top:0;
 
-  .nav__btn{
-    background-color: transparent;
-  }
+  //.nav__btn{
+   // background-color: transparent;
+  //}
 }
 
 /*#app .navigation-logo {
@@ -395,6 +395,9 @@
     max-height: 400px;
     display: flex;
     align-items: center;
+    background-position-x: center!important;
+    background-position-y: center!important;
+
     .background-imege-overlay{
       width: 100%;
       height: 100%;
@@ -408,18 +411,18 @@
     .menu__header-inner{
       padding: 2rem !important;
       position: relative;
-      margin:auto;
+      margin:20px;
       z-index: 2;
-        background: rgba(255,255,255,0.7);
+        //background: rgba(255,255,255,0.7);
 
 
 
       .boxmenu__title{
-        color: @black;
+        color: @white!important;
       }
         .boxmenu__body{
-        color: @primary-color;
-            font-weight:bold;
+        color: @white!important;
+            //font-weight:bold;
       }
     }
 
@@ -481,15 +484,17 @@
       position: relative;
       margin:auto;
       z-index: 2;
-        background: rgba(255,255,255,0.7);
+       background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(8px);
+     -webkit-backdrop-filter: blur(8px);
       .page__title{
-         color: @black;
+         color: @white;
       }
         .page__body{
-         color: @black;
+         color:  @white;
       }
          .page__instruction{
-         color: @black;
+         color:  @white;
       }
     }
 
@@ -507,7 +512,7 @@
     background-color: @white;
   }
   &.block-bg-grey{
-    background-color: @greyDark;
+    background-color: @greyDark!important;
 
       .narrative__content-item {
           background: @white!important;
@@ -918,3 +923,16 @@ p{
 .btn__feedback {
     display:none;
 }
+
+.accordion-item, .media__widget, .hotgraphic__widget, .narrative__slide-container, .graphic__widget, .narrative__content, .flipcard__item-face, .expose-item-inner, .hotgrid__item-btn-inner, .tabs__content, .tabs__nav-inner, .stacklist__item, .menu-item, .mcq-item, .gmcq-item__option, .matching-item__select-container, .clickAndLearn-tabItem, .clickAndLearn-indicator     {
+    
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.50); 
+box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.50);
+}
+
+.nav__skip-btn {
+    background-color:@secondary-color;
+}
+
+//ANIMATE
+

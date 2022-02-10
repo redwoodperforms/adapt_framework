@@ -2,12 +2,12 @@
 // --------------------------------------------------
 @blue:#00b1b0;
 @blueDark: #00746C;
-@grey: #9096A0;
+@grey: #F5f5f5;
 @mid-grey: #9096A0;
 @mediumGrey: #9096A0;
 @light-grey: #f5f5f5;
 @greyDark: #4D4D4D;
-@orange: #E97926;
+@orange: #B2d235;
 
 @primary-color: @blue;
 @secondary-color:@blueDark;
@@ -51,8 +51,8 @@
 @item-color-inverted: @white;
 @item-color-visited: @mediumGrey; //darken(@item-color, 10%)
 
-@item-color-hover: @primary-color;
-@item-color-inverted-hover: @black;
+@item-color-hover: @white;
+@item-color-inverted-hover: @secondary-color;
 
 @item-color-selected: darken(@item-color, 20%);
 @item-text-color-selected:#fff;
@@ -60,17 +60,17 @@
 
 // Visited - presentation components
 // --------------------------------------------------
-@visited: @orange;
+@visited: @greyDark;
 @visited-inverted: @white;
 
 // Buttons
 // --------------------------------------------------
 @btn-color: @secondary-color;
 @btn-color-inverted: @white;
-
-@btn-color-hover: @primary-color;
-@btn-border-hover-color: @primary-color;
-@btn-color-inverted-hover: @black;
+@btn-border-color:@secondary-color;
+@btn-color-hover: @white; 
+@btn-border-hover-color: @secondary-color;
+@btn-color-inverted-hover: @secondary-color;
 
 // Button icon
 // --------------------------------------------------
@@ -120,10 +120,10 @@
 @nav: @white;
 @nav-inverted: @grey;
 
-@nav-icon: @nav-inverted;
+@nav-icon: transparent;
 @nav-icon-inverted: @nav;
 
-@nav-icon-hover: darken(@nav-icon, 10%);
+@nav-icon-hover: @black;
 @nav-icon-inverted-hover: @nav-icon-inverted;
 
 @nav-progress: @nav-icon-inverted;

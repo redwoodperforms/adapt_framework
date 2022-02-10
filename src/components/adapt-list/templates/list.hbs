@@ -7,7 +7,7 @@
     <div class="list__container{{#if _orderedList}} is-ordered-list{{/if}}" role="list">
 
       {{#each _items}}
-      <div class="list__item" role="listitem">
+      <div class="list__item item-{{@index}}-audio" role="listitem">
 
         {{#if ../_orderedList}}
         <div class="list__item-step-number"></div>
@@ -18,7 +18,7 @@
         {{/if}}
 
         <div class="list__item-content">
-
+          <div class="item-audio-container"></div>
           {{#if title}}
           <div class="list__item-title">
             <div class="list__item-title-inner">

@@ -6,8 +6,8 @@
             <div class="imagegrid-grid-inner clearfix">
 
                 {{#each _items}}
-                <div class="imagegrid-grid-item {{_itemClasses}}">
-                    
+                <div class="imagegrid-grid-item item-{{@index}}-audio {{_itemClasses}}">
+                    <div class="item-audio-container"></div>                    
                     <div class="base imagegrid-item-image" aria-label="{{#if _graphic.title}}{{_graphic.title}}.{{/if}}{{#if _graphic.alt}} {{_graphic.alt}}.{{/if}}{{#if _isVisited}} {{../_globals._accessibility._ariaLabels.visited}}.{{/if}}">
                         <img src="{{_graphic.src}}"/>
                     </div>

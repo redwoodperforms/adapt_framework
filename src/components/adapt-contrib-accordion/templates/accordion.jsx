@@ -20,7 +20,8 @@ export default function Accordion (props) {
               'accordion-item',
               'js-accordion-item',
               _graphic.src && 'has-image',
-              _classes
+              _classes,
+              `item-${index}-audio`
             ])}
             key={_index}
             data-index={_index}
@@ -65,6 +66,7 @@ export default function Accordion (props) {
                 {body &&
                 <div className="accordion-item__body">
                   <div className="accordion-item__body-inner">
+                    <div class="item-audio-container"></div> 
                     {html(compile(body))}
                   </div>
                 </div>
