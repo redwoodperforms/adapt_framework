@@ -42,8 +42,8 @@
     "_duration": 400
   },
   "_completionCriteria": {
-    "_requireContentCompleted": false,
-    "_requireAssessmentCompleted": true
+    "_requireContentCompleted": true,
+    "_requireAssessmentCompleted": false
   },
   "_spoor": {
     "_isEnabled": true,
@@ -55,7 +55,7 @@
     "_reporting": {
       "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
       "_onTrackingCriteriaMet": "completed",
-      "_onAssessmentFailure": "incomplete",
+      "_onAssessmentFailure": "completed",
       "_resetStatusOnLanguageChange": false
     }
   },
