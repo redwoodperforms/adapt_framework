@@ -3,7 +3,7 @@
     "repository": "git://github.com/davegosling/adapt-block-background",
     "homepage": "https://github.com/davegosling/adapt-block-background",
     "framework": "^2.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "issues": "The 'backgroundColor' option needs validation adding to it to stop potentially unwanted CSS from being imlemented. Plugin needs browser testing.",
     "displayName": "Block Background",
     "extension" : "blockBackground",
