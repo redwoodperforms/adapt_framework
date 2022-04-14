@@ -64,11 +64,27 @@
       }
     },
     "_components": {
+      "_hotgrid": {
+        "ariaRegion": "Selectable image component. Select each item to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_chat": {
+        "ariaRegion": "Chat. Selecting 'Next,' loads a text conversation between two or more characters."
+      },
+      "_tidbits": {
+        "ariaRegion": "This component displays text with links. Use the links to access more information."
+      },
       "_accordion": {
         "ariaRegion": "List of expandable sections. Select each button to expand the content."
       },
       "_assessmentResults": {
-        "ariaRegion": "Assessment results."
+        "ariaRegion": "Assessment results. This is a component that details your score or results from the above assessment."
+      },
+      "_clickAndLearn": {
+        "ariaRegion": "This component is a select and learn type of component where we have selectable cards, after selecting on one of those card they reveal text associated with them."
+      },
+      "_flipcard": {
+        "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
       },
       "_gmcq": {
         "ariaRegion": "Multiple choice question",
@@ -76,9 +92,6 @@
         "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
         "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
         "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
-      },
-      "_graphic": {
-        "ariaRegion": ""
       },
       "_hotgraphic": {
         "ariaRegion": "Image with selectable areas. Select each button to show more information.",
@@ -113,59 +126,27 @@
         "labelStart": "Start of the scale",
         "labelEnd": "End of the scale"
       },
-      "_text": {
-        "ariaRegion": ""
-      },
       "_textinput": {
         "ariaRegion": "Text input. Type your answer and then submit."
       },
-      "_tidbits": {
-        "ariaRegion": "This component displays text with links. Use the links to access more information."
-      },
-      "_flipcard": {
-        "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
-      },
       "_expose": {
-        "ariaRegion": ""
-      },
-      "_hotgrid": {
-        "ariaRegion": "Selectable image component. Select each item to show more information.",
-        "popupPagination": "{{itemNumber}} / {{totalItems}}"
-      },
-      "_imagegrid": {
-        "ariaRegion": "This component contains images laid out in a flexible grid."
-      },
-      "_list": {
-        "ariaRegion": ""
-      },
-      "_sentenceOrdering": {
-        "ariaRegion": "This is a sentence ordering question component."
-      },
-      "_stacklist": {
-        "ariaRegion": "This stacklist component presents a list of items. Select the button to access each item in turn.",
-        "ariaButtonLabel": "Select this button to access the next item in the stacklist."
-      },
-      "_tabs": {
-        "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
-      },
-      "_youtube": {
-        "ariaRegion": "Media component which displays a YouTube video. Select the play / pause button to watch it.",
-        "skipToTranscript": "Skip to transcript"
-      },
-      "_expose-with-image": {
-        "ariaRegion": ""
-      },
-      "_chat": {
-        "ariaRegion": ""
+        "ariaRegion": "Expose. A series of items with a text or image front cover that, when selected, reveals more content."
       },
       "_flipper": {
-        "ariaRegion": ""
+        "ariaRegion": "Flipper. A component displays text or an image in a series of flipping boxes. Selecting 'Next,' flips each box until all boxes are flipped and 'completed' appears."
       },
-      "_clickAndLearn": {
-        "ariaRegion": "This component is a click and learn type of component where we have few clickable cards, after clicking on one of those card they reveal text associated with them."
-      },
-      "_peelbackhotspot": {
-        "ariaRegion": ""
+      "_imagegrid": {
+        "ariaRegion": "This component contains images laid out in a flexible grid.",
+        "_stacklist": {
+          "ariaRegion": "This stacklist component presents a list of items. Select the button to access each item in turn.",
+          "ariaButtonLabel": "Select this button to access the next item in the stacklist."
+        },
+        "_tabs": {
+          "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+        },
+        "_downloadButton": {
+          "ariaRegion": "Displays a  button to download a word or pdf document to your computer. Please note that this may navigate you away from the course."
+        }
       }
     },
     "_extensions": {
@@ -280,11 +261,6 @@
       }
     ]
   },
-  "_notes": {
-    "_isEnabled": true,
-    "title": "Notes",
-    "description": "Click here to edit notes"
-  },
   "_start": {
     "_isEnabled": false,
     "_startIds": [
@@ -310,33 +286,6 @@
       "yes": "Yes",
       "no": "No"
     }
-  },
-  "_contents": {
-    "_isEnabled": false,
-    "_startOpen": true,
-    "_showArticleTitles": false,
-    "_showPagePosition": true,
-    "_courseNavigation": {
-      "_isEnabled": true,
-      "_landingPage": false,
-      "_allAccordions": false,
-      "_circleProgress": {
-        "_isEnabled": true,
-        "_color": "#FFF"
-      },
-      "_scrollContentsHeight": {
-        "_isEnabled": true,
-        "_offset": 0
-      }
-    },
-    "_progressBar": {
-      "_isEnabled": true,
-      "_showPercentage": true
-    },
-    "_menuNavigationView": {
-      "_isEnabled": true
-    },
-    "_altText": "of components completed on this page."
   },
   "_search": {
     "_isEnabled": true,
