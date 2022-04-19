@@ -14,6 +14,14 @@
       "src": "course/en/images/menu_thumb.jpg",
       "alt": "Placeholder graphic."
     },
+        "_pageHeaderBackground": {
+      "_isEnabled": true,
+      "pageHeaderBackgroundLink": "course/en/images/bg2.jpg",
+      "pageHeaderTitleImage": {
+        "src": "",
+        "alignment": "right"
+      }
+    },
     "linkText": "View",
     "duration": "2 mins",
     "_pageLevelProgress": {
@@ -34,6 +42,14 @@
     "_graphic": {
       "src": "course/en/images/menu_thumb.jpg",
       "alt": "Placeholder graphic."
+    },
+         "_pageHeaderBackground": {
+      "_isEnabled": true,
+      "pageHeaderBackgroundLink": "course/en/images/bg2.jpg",
+      "pageHeaderTitleImage": {
+        "src": "",
+        "alignment": "right"
+      }
     },
     "linkText": "View",
     "duration": "2 mins",
@@ -56,6 +72,14 @@
       "src": "course/en/images/menu_thumb.jpg",
       "alt": "Placeholder graphic."
     },
+         "_pageHeaderBackground": {
+      "_isEnabled": true,
+      "pageHeaderBackgroundLink": "course/en/images/bg2.jpg",
+      "pageHeaderTitleImage": {
+        "src": "",
+        "alignment": "right"
+      }
+    },
     "linkText": "View",
     "duration": "2 mins",
     "_pageLevelProgress": {
@@ -76,6 +100,14 @@
     "_graphic": {
       "src": "course/en/images/menu_thumb.jpg",
       "alt": "Placeholder graphic."
+    },
+         "_pageHeaderBackground": {
+      "_isEnabled": true,
+      "pageHeaderBackgroundLink": "course/en/images/bg2.jpg",
+      "pageHeaderTitleImage": {
+        "src": "",
+        "alignment": "right"
+      }
     },
     "linkText": "View",
     "duration": "2 mins",
