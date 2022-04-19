@@ -6,7 +6,7 @@
   "displayTitle": "Adapt Version 5",
   "description": "A sample course demonstrating the capabilities of the Adapt Framework",
   "body": "Welcome to the demonstration build for version 5 of the Adapt framework.",
-      "_menuBackground": {
+  "_menuBackground": {
     "_menuHeader": {
       "_link": "course/en/images/bg.jpg",
       "_applyToPage": false

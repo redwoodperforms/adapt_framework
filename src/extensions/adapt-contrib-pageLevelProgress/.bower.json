@@ -20,7 +20,8 @@
     "tag": "v5.3.1",
     "commit": "8d40f9069f7a7ab27fd6028b06267d75af7198b5"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-pageLevelProgress.git",
   "_target": "5.3.1",
-  "_originalSource": "adapt-contrib-pageLevelProgress"
+  "_originalSource": "adapt-contrib-pageLevelProgress",
+  "_direct": true
 }

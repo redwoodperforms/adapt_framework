@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-media",
-  "version": "5.3.2",
+  "version": "5.4.1",
   "framework": ">=5.17.2",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-media",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-media/issues",
@@ -14,13 +14,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "5.3.2",
+  "_release": "5.4.1",
   "_resolution": {
     "type": "version",
-    "tag": "v5.3.2",
-    "commit": "22701214c11f89d30578ec10db05352a16a83468"
+    "tag": "v5.4.1",
+    "commit": "7a5563b9819dab23e3fbd98303891a99484fb117"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-media.git",
-  "_target": "5.3.2",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-media.git",
+  "_target": "5.4.1",
   "_originalSource": "adapt-contrib-media"
 }

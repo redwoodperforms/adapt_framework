@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-slider",
-  "version": "3.3.2",
+  "version": "3.4.0",
   "framework": ">=5.17.2",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-slider",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-slider/issues",
@@ -14,13 +14,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "3.3.2",
+  "_release": "3.4.0",
   "_resolution": {
     "type": "version",
-    "tag": "v3.3.2",
-    "commit": "dda9c095bc9123591288b62460d5011970682294"
+    "tag": "v3.4.0",
+    "commit": "8d4aca23058e4f27eaa7aebfb751bf58cedf87aa"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-slider.git",
-  "_target": "3.3.2",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-slider.git",
+  "_target": "3.4.0",
   "_originalSource": "adapt-contrib-slider"
 }

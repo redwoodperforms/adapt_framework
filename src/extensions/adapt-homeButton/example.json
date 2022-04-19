@@ -9,8 +9,7 @@
     "_homeButton": {
         "_isEnabled": true,
         "_hideHomeButton": false,
-        "_comment": "Amend co-00 to match the ID of the start / landing page",
-        "_redirectToId": "co-00",
+        "_redirectToId": "course",
         "alt": "Home"
     }
 

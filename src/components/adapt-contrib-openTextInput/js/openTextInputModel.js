@@ -24,7 +24,7 @@ define([
     setupQuestion(localUserAnswer) {
       // Open Text Input cannot show feedback, but may have been set in older courses
       this.set('_canShowFeedback', false);
-      this.set('_feedback', {});
+      this.set('_feedback', null);
 
       this.formatPlaceholder();
 

@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-hotgraphic",
-  "version": "5.5.0",
+  "version": "5.5.1",
   "framework": ">=5.17.2",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-hotgraphic",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-hotgraphic/issues",
@@ -17,13 +17,13 @@
     "adapt-contrib-narrative": ">=6.1"
   },
   "license": "GPL-3.0",
-  "_release": "5.5.0",
+  "_release": "5.5.1",
   "_resolution": {
     "type": "version",
-    "tag": "v5.5.0",
-    "commit": "2a249b9cba2da7ba2dfcec7c4c640a1f004b0ae0"
+    "tag": "v5.5.1",
+    "commit": "72245dd879ca81fd2363e7dda2e54afee7e0f9a2"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-hotgraphic.git",
-  "_target": "5.5.0",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-hotgraphic.git",
+  "_target": "5.5.1",
   "_originalSource": "adapt-contrib-hotgraphic"
 }

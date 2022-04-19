@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-bookmarking",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "framework": ">=5.8",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-bookmarking",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-bookmarking/issues",
@@ -14,13 +14,13 @@
   ],
   "license": "GPL-3.0",
   "targetAttribute": "_bookmarking",
-  "_release": "3.3.1",
+  "_release": "3.3.2",
   "_resolution": {
     "type": "version",
-    "tag": "v3.3.1",
-    "commit": "d3f1474f475a6a4c19b00df5c6564e306715a517"
+    "tag": "v3.3.2",
+    "commit": "3ad45cd5b2717bfa56f9943b0f71571c0adc3390"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-bookmarking.git",
-  "_target": "3.3.1",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-bookmarking.git",
+  "_target": "3.3.2",
   "_originalSource": "adapt-contrib-bookmarking"
 }

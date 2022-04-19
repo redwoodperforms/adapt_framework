@@ -24,7 +24,7 @@
     "tag": "v0.1.0",
     "commit": "44ad3db4e13db6179a370b4132d7f431bfcf4bf4"
   },
-  "_source": "git://github.com/cgkineo/adapt-homeButton.git",
+  "_source": "https://github.com/cgkineo/adapt-homeButton.git",
   "_target": "0.1.0",
   "_originalSource": "adapt-homeButton",
   "_direct": true

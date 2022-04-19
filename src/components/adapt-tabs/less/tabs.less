@@ -14,7 +14,7 @@
   }
 
   .tabs__nav {
-    width: 30%;
+    width: 10%;
   }
 
   .tabs__nav-inner {
@@ -22,7 +22,7 @@
   }
 
   .tabs__content {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -73,7 +73,6 @@
   &__content-item-title {
     margin-bottom: @item-title-margin;
     .item-title;
-    font-weight: bold;
   }
 
   &__content-item-body a {
@@ -81,7 +80,7 @@
   }
 
   &__nav-item-btn {
-    padding: 0.5rem;
+    padding: @item-padding;
     background-color: @item-color;
     color: @item-color-inverted;
     .button-text;
@@ -109,18 +108,4 @@
       text-align: right;
     }
   }
-}
-.align-image-right {
-  @media (min-width: @device-width-medium) {
-    .tabs__content-item-body{
-      width: 49%;
-      display: inline-block;
-    }
-
-    .tabs__content-item-graphic{
-      width: 49%;
-      display: inline-block;
-      vertical-align: top;
-    }
-  } 
 }

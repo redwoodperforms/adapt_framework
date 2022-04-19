@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-assessment",
-  "version": "4.5.3",
+  "version": "4.5.5",
   "framework": ">=5.8",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-assessment",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-assessment/issues",
@@ -14,13 +14,14 @@
   ],
   "license": "GPL-3.0",
   "targetAttribute": "_assessment",
-  "_release": "4.5.3",
+  "_release": "4.5.5",
   "_resolution": {
     "type": "version",
-    "tag": "v4.5.3",
-    "commit": "62a3fb07a346fdf04b65dcb86be54495c5efffa3"
+    "tag": "v4.5.5",
+    "commit": "b69b03d1cfab3be685ed9a3f78e187abb68b9fb4"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-assessment.git",
-  "_target": "4.5.3",
-  "_originalSource": "adapt-contrib-assessment"
+  "_source": "https://github.com/adaptlearning/adapt-contrib-assessment.git",
+  "_target": "4.5.5",
+  "_originalSource": "adapt-contrib-assessment",
+  "_direct": true
 }

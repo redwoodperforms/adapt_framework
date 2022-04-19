@@ -1,7 +1,7 @@
 {
   "name": "adapt-tabs",
-  "framework": ">=5",
-  "version": "3.0.1",
+  "framework": ">=5.14",
+  "version": "4.0.0",
   "homepage": "https://github.com/cgkineo/adapt-tabs",
   "issues": "https://github.com/cgkineo/adapt-tabs/issues/",
   "displayName": "Tabs",
@@ -13,13 +13,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "3.0.1",
+  "_release": "4.0.0",
   "_resolution": {
     "type": "version",
-    "tag": "v3.0.1",
-    "commit": "d4646123f8a42459302544f4eed75b1f8fd6b2c4"
+    "tag": "v4.0.0",
+    "commit": "b0b88ff3a9ecdedebdbdf7df9764dd89ce6c643d"
   },
-  "_source": "git://github.com/cgkineo/adapt-tabs.git",
-  "_target": "3.0.1",
+  "_source": "https://github.com/cgkineo/adapt-tabs.git",
+  "_target": "4.0.0",
   "_originalSource": "adapt-tabs"
 }
