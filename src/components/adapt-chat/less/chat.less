@@ -1,7 +1,7 @@
-@stacklist-time: 0.25s;
+@chat-time: 0.25s;
 @chat-line-time: 0.25s;
 
-.stacklist-transition(@time) {
+.chat-transition(@time) {
 	-webkit-transition: @time;
 	-moz-transition: @time;
 	-ms-transition: @time;
@@ -9,15 +9,15 @@
 	transition: @time;
 }
 
-.chat-component {
+.chat.component {
 	.chat-lines {
 		position: relative;
 		margin-bottom: -8px;
-		.stacklist-transition(@stacklist-time);
+		.chat-transition(@chat-time);
 	}
 
 	.chat-line {
-		.stacklist-transition(@chat-line-time);
+		.chat-transition(@chat-line-time);
 		text-align: left;
 		min-height: 100px;
 		margin-bottom: 10px;
@@ -57,7 +57,7 @@
 
 		.chat-text {
 			background-color: @primary-color-inverted;
-			color: @primary-color;
+			color: @black;
 			border: 1px solid @primary-color;
 			margin-right: 100px;
 		}
@@ -71,18 +71,23 @@
 		}
 	}
 
-	.stacklist-button {
+	.chat-button {
 		display: none;
 		position: absolute;
 		top: 0;
 		height: 53px;
 		width: 100%;
 		text-align: center;
-		.stacklist-transition(@stacklist-time);
+		.chat-transition(@chat-time);
 
 		button {
 			width: 210px;
 		}
+	}
+
+	img{
+		min-width: 1% !important;
+		width: 100px !important; 
 	}
 }
 

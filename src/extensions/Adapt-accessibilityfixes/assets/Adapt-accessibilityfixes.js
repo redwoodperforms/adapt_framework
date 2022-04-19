@@ -425,31 +425,7 @@ function StartKBTrap(object, forceStop) {
 
             //select the first and last ones
 
-            initialFocusableElement = $('*:focus');
-            firstFocusableElement = focusableElements.first();
-            lastFocusableElement = focusableElements.last();
-
-            $('.initialfocus').removeClass('initialfocus');
-            $('.firstfocus').removeClass('firstfocus');
-            $('.lastfocus').removeClass('lastfocus');
-
-            initialFocusableElement.addClass('initialfocus');
-            firstFocusableElement.addClass('firstfocus');
-            lastFocusableElement.addClass('lastfocus');
-
-            //Drawer focus fixes
-            if (object.find('.pagelevelprogress-indicator').length > 0) {
-                $('.drawer-close').focus();
-            } else if (object.find('.drawer-item').length > 0) {
-                firstFocusableElement.focus();
-            }
-
-            //lastFocus is initialFocus fix
-            var ignoreInitial = false;
-            if ($('.lastfocus').hasClass('.initialfocus')) {
-                ignoreInitial = true;
-                $('.initialfocus').removeClass('initialfocus');
-            }
+         
 
             //Listing of all focusable item
             focusableElements.each(function() {

@@ -5,7 +5,7 @@
             {{#each _items}}
             <div class="expose-item item-{{@index}}-audio nth-child-{{@index}}">
                 <div class="expose-item-inner">
-                    <button class="expose-item-button" role="button">
+                    <button aria-label="{{@index}}" class="expose-item-button" role="button">
                         <span class="aria-label">{{#if front}} {{{a11y_text front}}}
                             {{else}}{{a11y_text frontAriaLabel}}{{/if}}</span>
                     </button>
@@ -34,3 +34,4 @@
         </div>
     </div>
 </div>
+
