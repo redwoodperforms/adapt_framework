@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-openTextInput",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "framework": ">=5.7.0",
   "homepage": "https://github.com/learningpool/adapt-contrib-openTextInput",
   "authors": [
@@ -20,14 +20,13 @@
   "component": "openTextInput",
   "displayName": "Open Text Input",
   "license": "GPLv3",
-  "_release": "2.2.2",
+  "_release": "2.2.3",
   "_resolution": {
     "type": "version",
-    "tag": "2.2.2",
-    "commit": "93dd1b48c99dd2ed2aa7fadcdbdabeb44dec4d40"
+    "tag": "2.2.3",
+    "commit": "ba01ccaf2ab5b6008cab62db890ab8b2d628e95a"
   },
   "_source": "https://github.com/learningpool/adapt-contrib-openTextInput.git",
-  "_target": "2.2.2",
-  "_originalSource": "adapt-contrib-openTextInput",
-  "_direct": true
+  "_target": "2.2.3",
+  "_originalSource": "adapt-contrib-openTextInput"
 }

@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-blank",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "framework": ">=5.17.2",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-blank",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-blank/issues",
@@ -14,13 +14,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "3.3.0",
+  "_release": "3.3.1",
   "_resolution": {
     "type": "version",
-    "tag": "v3.3.0",
-    "commit": "ab40736b5155973aa5589ba9ae3a7aa686aed665"
+    "tag": "v3.3.1",
+    "commit": "0a21d2170b0559eeae908a838e55b56bc3eb3559"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-blank.git",
-  "_target": "3.3.0",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-blank.git",
+  "_target": "3.3.1",
   "_originalSource": "adapt-contrib-blank"
 }

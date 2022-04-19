@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-narrative",
-  "version": "6.5.2",
+  "version": "6.5.3",
   "framework": ">=5.17.2",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-narrative",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-narrative/issues",
@@ -14,13 +14,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "6.5.2",
+  "_release": "6.5.3",
   "_resolution": {
     "type": "version",
-    "tag": "v6.5.2",
-    "commit": "8a10b8545b8ab283cb78b9a43b940e58d97d98e6"
+    "tag": "v6.5.3",
+    "commit": "34b0e90089bd3c55e76f7202c1d2f7b8fc6da9b0"
   },
   "_source": "https://github.com/adaptlearning/adapt-contrib-narrative.git",
-  "_target": "6.5.2",
+  "_target": "6.5.3",
   "_originalSource": "adapt-contrib-narrative"
 }

@@ -45,6 +45,8 @@ define([
 
       // Keep the action button enabled so we can show the model answer.
       Adapt.a11y.toggleAccessibleEnabled(this.$('.btn__action'), true);
+      // Ensure count is not read out again
+      Adapt.a11y.toggleAccessible(this.$('.opentextinput__count-amount'), false);
 
       if (_.isEmpty(buttonState)) return;
 
@@ -69,10 +71,8 @@ define([
       this.$modelAnswer = this.$('.opentextinput__item-modelanswer');
       this.$countChars = this.$('.opentextinput__count-characters-container');
 
-      this.$autosave = this.$('.opentextinput__autosave');
-      this.$autosave.text(this.model.get('savedMessage'));
-
-      this.$autosave.css({ opacity: 0 });
+      // Count Chars should only be accessible to SR when entering text, no need for it to be tabbable
+      Adapt.a11y.toggleAccessibleEnabled(this.$('.opentextinput__count-characters'), false);
 
       this.countCharacters();
       this.setReadyStatus();
@@ -81,7 +81,6 @@ define([
         // Model answer has been disabled.
         // Force setting the correct/submitted state.
         this.model.set('_buttonState', BUTTON_STATE.CORRECT);
-        Adapt.a11y.toggleAccessibleEnabled(this.$('.btn__action'), false);
       }
 
       if (!this.model.get('_isInteractionComplete')) return;
@@ -109,7 +108,8 @@ define([
     }
 
     showCountAmount() {
-      this.$('.opentextinput__count-amount').html(this.model.get('charactersLeft'));
+      this.$('.opentextinput__count-amount')
+       .html(`${this.model.get('charactersLeft')} ${this.model.get('remainingCharactersText')}`);
     }
 
     countCharacters() {
@@ -165,9 +165,6 @@ define([
       }
 
       this.model.set('_isSaved', true);
-
-      this.$autosave.css({opacity: 100});
-      this.$autosave.delay(1000).animate({opacity: 0});
     }
 
     onActionClicked(buttonState) {
@@ -197,7 +194,8 @@ define([
       this.$countChars.hide();
       this.$modelAnswer.addClass(SHOW_MODEL_ANSWER_CLASS).removeClass(HIDE_MODEL_ANSWER_CLASS);
 
-      this.scrollToTextArea();
+      // Give focus to Model Answer to be read by Screen Reader
+      Adapt.a11y.focusFirst(this.$('.opentextinput__item-modelanswer'));
     }
 
     hideCorrectAnswer() {
@@ -208,14 +206,6 @@ define([
       this.$('.opentextinput__item-modelanswer')
         .addClass(HIDE_MODEL_ANSWER_CLASS)
         .removeClass(SHOW_MODEL_ANSWER_CLASS);
-    }
-
-    scrollToTextArea() {
-      Adapt.navigateToElement('.' + this.model.get('_id'), {
-        replace: true,
-        duration: 400,
-        offset: -parseInt($('#wrapper').css('padding-top'))
-      });
     }
 
     /**

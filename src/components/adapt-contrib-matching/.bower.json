@@ -1,6 +1,6 @@
 {
   "name": "adapt-contrib-matching",
-  "version": "5.0.0",
+  "version": "6.0.1",
   "framework": ">=5.18.0",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-matching",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-matching/issues",
@@ -14,13 +14,13 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "5.0.0",
+  "_release": "6.0.1",
   "_resolution": {
     "type": "version",
-    "tag": "v5.0.0",
-    "commit": "0191cf8c0b9efaaf4fcf9e40033ee4ecc91a6909"
+    "tag": "v6.0.1",
+    "commit": "620db5e2e2837c96522225ffea5116023a47dae3"
   },
-  "_source": "git://github.com/adaptlearning/adapt-contrib-matching.git",
-  "_target": "5.0.0",
+  "_source": "https://github.com/adaptlearning/adapt-contrib-matching.git",
+  "_target": "6.0.1",
   "_originalSource": "adapt-contrib-matching"
 }

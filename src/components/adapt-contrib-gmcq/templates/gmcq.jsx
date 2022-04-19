@@ -49,7 +49,7 @@ export default function Gmcq(props) {
 
           <div
             className={classes([
-              `gmcq-item item-${index} item-${index}-audio`,
+              `gmcq-item item-${index}`,
               (shouldShowMarking && _shouldBeSelected) ? 'is-correct' : null,
               (shouldShowMarking && !_shouldBeSelected) ? 'is-incorrect' : null
             ])}
@@ -65,16 +65,17 @@ export default function Gmcq(props) {
               name={_isRadio ? `${_id}-item` : null}
               type={_isRadio ? 'radio' : 'checkbox'}
               disabled={!_isEnabled}
+              checked={_isActive}
               aria-label={!shouldShowMarking ?
                 `${Adapt.a11y.normalize(text)} ${_graphic?.alt || ''}` :
                 `${_shouldBeSelected ? ariaLabels.correct : ariaLabels.incorrect}, ${_isActive ? ariaLabels.selectedAnswer : ariaLabels.unselectedAnswer}. ${Adapt.a11y.normalize(text)} ${_graphic?.alt || ''}`}
               data-adapt-index={_index}
               onKeyPress={onKeyPress}
-              onChange={onItemSelect}
+              onClick={onItemSelect}
               onFocus={onItemFocus}
               onBlur={onItemBlur}
             />
-            <div class="item-audio-container"></div>
+
             <label
               className={classes([
                 'gmcq-item__label',

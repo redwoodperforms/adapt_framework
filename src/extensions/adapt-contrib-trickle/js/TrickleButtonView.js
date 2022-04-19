@@ -86,8 +86,7 @@ class TrickleButtonView extends ComponentView {
   /**
    * Keep count of the number of open popups
    */
-  onPopupOpened($popupElement) {
-    if($popupElement.hasClass('hint__widget')) { return; }
+  onPopupOpened() {
     this.openPopupCount++;
     const shouldUserInteractWithButton = (this.model.isStepUnlocked() && !this.model.isFinished());
     if (!shouldUserInteractWithButton) return;
@@ -97,8 +96,7 @@ class TrickleButtonView extends ComponentView {
   /**
    * Keep count of the number of open popups
    */
-  async onPopupClosed($popupElement) {
-    if($popupElement.hasClass('hint__btn')) { return; }
+  async onPopupClosed() {
     this.openPopupCount--;
     if (this.openPopupCount) return;
     if (this.isAwaitingPopupClose) {
