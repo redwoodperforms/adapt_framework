@@ -11,19 +11,20 @@
 			</div>
 			<div class="drawer-controls">
 				<div class="drawer-audio-toggle-inner">
-					<button class="base drawer-audio-toggle item-normal-narration" data-id="0" aria-label="">
+					<button class="base drawer-audio-toggle item-normal-narration" data-id="0" 
+                            aria-label="{{{model._channels._narration.autoplayAria}}}">
 						<img src="./assets/volume-normal.svg">
 					</button>
                     <div class="drawer-item-title-inner h5">{{{model._channels._narration.toggleOn}}}</div>
 				</div>
 				<div class="drawer-audio-autoplay-toggle-inner">
-					<button class="base drawer-audio-autoplay-toggle item-autoplay-narration" aria-label="">
+					<button class="base drawer-audio-autoplay-toggle item-autoplay-narration" aria-label="{{{model._channels._narration.audioOnAria}}}">
 						<img src="./assets/volume-error-1.svg">
 					</button>
                     <div class="drawer-item-title-inner h5">{{{model._channels._narration.toggleAutoplay}}}</div>
 				</div>
 				<div class="drawer-audio-toggle-inner">
-					<button class="base drawer-audio-toggle item-mute-narration" data-id="0" aria-label="">
+					<button class="base drawer-audio-toggle item-mute-narration" data-id="0" aria-label="{{{model._channels._narration.audioOffAria}}}">
 						<img src="./assets/volume-mute.svg">
 					</button>
                     <div class="drawer-item-title-inner h5">{{{model._channels._narration.toggleOff}}}</div>

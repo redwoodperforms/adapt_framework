@@ -1,6 +1,6 @@
 define(["coreJS/adapt"], function (Adapt) {
 
-    
+
     var Backbone = require('backbone');
 
     var menuBackground = Backbone.View.extend({
@@ -23,7 +23,7 @@ define(["coreJS/adapt"], function (Adapt) {
         if (!(Adapt.course.get('_menuBackground')._menuHeader._link === "")) {
             $('.menu__header').css('background', 'url(' + Adapt.course.get('_menuBackground')._menuHeader._link + ')');
             $('.menu__header').css('background-size', 'cover');
-            $('.menu__header').attr({ 'role': 'img', 'aria-label': "" });
+            // $('.menu__header').attr({ 'role': 'img', 'aria-label': "" });
         }
         if (!(Adapt.course.get('_menuBackground')._backgroundLink === "")) {
             $('.menu__inner').css('background', 'url(' + Adapt.course.get('_menuBackground')._backgroundLink + ')');
