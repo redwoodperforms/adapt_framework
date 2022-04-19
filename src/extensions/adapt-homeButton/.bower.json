@@ -1,6 +1,6 @@
 {
   "name": "adapt-homeButton",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "framework": ">=5",
   "repository": {
     "type": "git",
@@ -18,13 +18,14 @@
   ],
   "license": "GPL-3.0",
   "targetAttribute": "_homeButton",
-  "_release": "1.0.0",
+  "_release": "0.1.0",
   "_resolution": {
     "type": "version",
-    "tag": "v1.0.0",
-    "commit": "8ee6e48d6daa8bf01b57122c78c346d3db829e6e"
+    "tag": "v0.1.0",
+    "commit": "44ad3db4e13db6179a370b4132d7f431bfcf4bf4"
   },
   "_source": "https://github.com/cgkineo/adapt-homeButton.git",
-  "_target": "1.0.0",
-  "_originalSource": "adapt-homeButton"
+  "_target": "0.1.0",
+  "_originalSource": "adapt-homeButton",
+  "_direct": true
 }
